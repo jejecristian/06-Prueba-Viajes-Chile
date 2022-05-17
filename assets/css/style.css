@@ -7,15 +7,22 @@
     padding: 0;
 }
 
+/* Desactiva scroll de bootstrap */
+html {
+    scroll-behavior: auto !important;
+}
+
 /* Para todo el cuerpo */
 body {
     font-family: 'Roboto';
     background-color: black;
 }
+
 h1 {
     font-size: 20px;
     font-weight: 400;
 }
+
 h5 {
     font-size: 17px;
     font-weight: 400;
@@ -28,10 +35,12 @@ h5 {
     width: 100vw;
     z-index: 1;
 }
+
 .navbar-brand {
     font-size: 20px;
     font-style: 400;
 }
+
 #barra img {
     width: 20px;
 }
@@ -40,7 +49,9 @@ h5 {
 .carousel-inner img {
     height: 50vw;
 }
-.carousel-control-prev, .carousel-control-next {
+
+.carousel-control-prev,
+.carousel-control-next {
     width: 32px;
     height: 32px;
     margin: 25vw 5vw;
@@ -55,10 +66,12 @@ h5 {
 #destacados .card-text {
     font-size: 13px;
 }
-#destacados img{
+
+#destacados img {
     height: 120px;
 }
-#destacados .card-body{
+
+#destacados .card-body {
     height: 200px;
 }
 
