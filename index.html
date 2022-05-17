@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custon Icon-->
+    <link rel="icon" href="./assets/img/viajes.svg">
 
     <!-- Custom CSS-->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -25,10 +28,7 @@
 </head>
 
 <body>
-    <!-- Contenido principal-->
-    <header id="principal"></header>
-
-    <!-- Barra de navegacion-->
+    <!-- Barra de Navegacion-->
     <nav id="barra" class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -43,7 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#barra">Inicio</a>
+                        <a class="nav-link active" href="#principal">Inicio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
@@ -59,17 +59,183 @@
         </div>
     </nav>
 
+    <!-- Contenido Principal-->
+    <header id="principal">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2.jpg">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </header>
+
     <!-- Seccion Quienes somos-->
-    <section id="quienesSomos"></section>
+    <section id="quienesSomos">
+        <div class="container text-white py-4 py-lg-5 d-none d-lg-block">
+            <h1 class="text-center">¿Quiénes somos?</h1>
+            <hr class="mx-auto opacity-50 text-info">
+            <div class="container">
+                <div class="row">
+                    <article class="col-12 col-lg-4 my-3">
+                        <div class="card bg-transparent">
+                            <i class="fa-solid fa-plane bg-info fa-2x text-center py-1"></i>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, amet consequuntur
+                                architecto aut incidunt iste alias nulla maxime ipsam beatae quisquam veritatis! Velit ab possimus dolores
+                                ipsam nesciunt modi necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ut
+                                sed nemo beatae quisquam nobis illum accusamus magnam eaque adipisci esse illo praesentium et quidem,
+                                sapiente reiciendis eum. Ab, quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde aut sint
+                                alias labore commodi soluta ad facilis blanditiis, qui nesciunt consequatur ea, pariatur reprehenderit.
+                                Consequuntur optio quae tempore eaque ipsa.
+                            </p>
+                        </div>
+                    </article>
+                    <article class="col-12 col-lg-4 my-3">
+                        <div class="card bg-transparent">
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, amet consequuntur
+                                architecto aut incidunt iste alias nulla maxime ipsam beatae quisquam veritatis! Velit ab possimus dolores
+                                ipsam nesciunt modi necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ut
+                                sed nemo beatae quisquam nobis illum accusamus magnam eaque adipisci esse illo praesentium et quidem,
+                                sapiente reiciendis eum. Ab, quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde aut sint
+                                alias labore commodi soluta ad facilis blanditiis, qui nesciunt consequatur ea, pariatur reprehenderit.
+                                Consequuntur optio quae tempore eaque ipsa.
+                            </p>
+                            <i class="fa-solid fa-mountain bg-info fa-2x text-center"></i>
+                        </div>
+                    </article>
+                    <article class="col-12 col-lg-4 my-3">
+                        <div class="card bg-transparent">
+                            <i class="fa-solid fa-route bg-info fa-2x text-center py-1"></i>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, amet consequuntur
+                                architecto aut incidunt iste alias nulla maxime ipsam beatae quisquam veritatis! Velit ab possimus dolores
+                                ipsam nesciunt modi necessitatibus. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ut
+                                sed nemo beatae quisquam nobis illum accusamus magnam eaque adipisci esse illo praesentium et quidem,
+                                sapiente reiciendis eum. Ab, quidem? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde aut sint
+                                alias labore commodi soluta ad facilis blanditiis, qui nesciunt consequatur ea, pariatur reprehenderit.
+                                Consequuntur optio quae tempore eaque ipsa.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Seccion destacados-->
-    <section id="destacados"></section>
+    <!-- Seccion Destacados-->
+    <section id="destacados">
+        <div class="container text-white py-4">
+            <h1 class="text-center">Destacados</h1>
+            <hr class="mx-auto opacity-50 text-info">
+            <div class="container">
+                <div class="row">
+                    <article class="col-12 col-md-6 col-lg-3 my-3">
+                        <div class="card bg-info">
+                            <img src="./assets/img/card1.jpg" class="card-img-top" alt="card1.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum, dolor sit amet</h5>
+                                <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Deserunt adipisci molestiae
+                                    officia maiores reprehenderit eum quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 my-3">
+                        <div class="card bg-info">
+                            <img src="./assets/img/card2.jpg" class="card-img-top" alt="card2.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Consectetur adipisicing elit</h5>
+                                <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Deserunt adipisci molestiae
+                                    officia maiores reprehenderit eum quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 my-3">
+                        <div class="card bg-info">
+                            <img src="./assets/img/card3.jpg" class="card-img-top" alt="card3.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Sed do eiusmod tempor incididunt ut labore</h5>
+                                <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Deserunt adipisci molestiae
+                                    officia maiores reprehenderit eum quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-12 col-md-6 col-lg-3 my-3">
+                        <div class="card bg-info">
+                            <img src="./assets/img/card4.jpg" class="card-img-top" alt="card4.jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Ut enim ad minim veniam</h5>
+                                <p class="card-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Deserunt adipisci molestiae
+                                    officia maiores reprehenderit eum quibusdam.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Seccion de contacto y formulario-->
-    <section id="contacto"></section>
+    <!-- Seccion Contacto formulario-->
+    <section id="contacto">
+        <div class="container text-white py-4">
+            <h1 class="text-center">Contacto</h1>
+            <hr class="mx-auto opacity-50 text-info">
+            <div class="container">
+                <iframe id="formulario" src="https://86lk14r8rqi.typeform.com/to/dEljaGVU" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
 
     <!-- Pie de pagina-->
-    <footer></footer>
+    <footer class="bg-info text-center text-white py-2">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h1>VIAJES CHILE</h1>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <a target="_blank" href="https://github.com/">
+                            <i class="fa-brands fa-github-square fa-2x mx-2"></i>
+                        </a>
+                        <a target="_blank" href="https://cl.linkedin.com/">
+                            <i class="fa-brands fa-linkedin fa-2x mx-2"></i>
+                        </a>
+                        <a target="_blank" href="https://twitter.com/">
+                            <i class="fa-brands fa-twitter-square fa-2x mx-2"></i>
+                        </a>
+                        <a target="_blank" href="https://www.facebook.com/">
+                            <i class="fa-brands fa-facebook-square fa-2x mx-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper v5.1.3 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
