@@ -1,1 +1,29 @@
-/* Se prepara CSS*/
+/* Importación de Google Font Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* All*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuente para el cuerpo*/
+body {
+    font-family: 'Roboto';
+}
+
+/* Barra de navegacion*/
+.navbar {
+    background-color: transparent;
+    background-image: url("../img/carousel1.jpg");
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+.navbar-brand {
+    font-size: 20px;
+    font-style: 400;
+}
+#barra img {
+    width: 20px;
+}
